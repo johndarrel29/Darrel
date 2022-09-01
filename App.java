@@ -54,6 +54,46 @@ public class App {
         sparta.sayMyagility();
         sparta.sayMystrength();
         sparta.sayMyintelligence();
+        
+        // Enemy Class
+        Enemy boss = new Enemy();
+
+        boss.damage = 50;
+        boss.health = 500;
+        boss.armor = 100;
+        boss.hasMagicImmunity = true;
+        boss.name = "Roshan";
+        boss.enemyDialogue();
+
+        Enemy skeleton = new Enemy();
+
+        skeleton.damage = 5;
+        skeleton.health = 10;
+        skeleton.armor = 5;
+        skeleton.hasMagicImmunity = false;
+        skeleton.name = "Common Skeleton Warrior";
+        skeleton.enemyDialogue();
+
+        Enemy dragon = new Enemy();
+
+        dragon.damage = 40;
+        dragon.health = 400;
+        dragon.armor = 75;
+        dragon.hasMagicImmunity = false;
+        dragon.name = "Ancient Wyvern";
+        dragon.enemyDialogue();
+
+        //gear
+
+        Gear boots = new Gear();
+
+        boots.name = "Sinaunang sapatos";
+        boots.defense = 999;
+        boots.weight = 55.5f;
+        boots.rarity = "legendary super duper epic,";
+        boots.hasElementalResistance = true;
+        boots.description();
+        boots.showdefense();
 
     }
 }
