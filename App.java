@@ -93,7 +93,5 @@ public class App {
         boots.rarity = "legendary super duper epic,";
         boots.hasElementalResistance = true;
         boots.description();
-        boots.showdefense();
-
     }
 }
