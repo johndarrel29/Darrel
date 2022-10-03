@@ -18,7 +18,7 @@ public class App {
 
         while (surnameITO != 0) {
             System.out.println("alyas legendary master");
-            surnameITO--;
+            surNameIto--;
         }
     }
 }
