@@ -5,7 +5,7 @@ public class App {
             System.out.println("John Darrel");
         }
         
-            //palayaw is a variable so you can change it
+//palayaw is a variable so you can change it
          int palayaw = 5;
 
         do {
