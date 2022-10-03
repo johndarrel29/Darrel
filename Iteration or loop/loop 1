@@ -1,0 +1,14 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+//sheesh is a variable
+        for (int sheesh = 5; sheesh != 0; sheesh--) {
+            System.out.println("ako si rere");
+        }
+         int rideCount = 5;
+
+        while (rideCount != 0) {
+            System.out.println("isang legendary master");
+            rideCount--;
+        }
+    }
+}
