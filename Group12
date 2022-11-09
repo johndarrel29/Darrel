@@ -1,0 +1,284 @@
+print ("\nSummer Vacation is now happening, and you are given a chance to spend you whole vacation in Witfaitum 'The summer sanctum' \n")
+key = input("*press enter to continue \n")
+name = input ("Please enter your name: ")
+user = name.capitalize()
+print ("\nWelcome to Witfaitum 'The summer sanctum',", user)
+print ("Witfaitum is a new-found world where almost everything you want to experience exists here! \n")
+key = input("*press enter to continue \n")
+print ("*10:45 PM \n")
+print ("Floors 4-9 are for the resident's floor")
+print ("Choose where do you want to be your unit")
+print (" 4. Modern \n 5. Contemporary \n 6. Neo-classical \n 7. Bohemian \n 8. Industrial \n 9. Cyberpunk")
+# floors = ["1st floor - 'lobby'", "2nd floor - 'reception'", "3rd floor - 'Gym'", "4th floor - 'Modern style'", "5th floor - 'Contemporary'", "6th floor - 'Neo-classical'", "7th floor - 'Bohemian'", "8th floor - 'Industrial'", "9th floor - 'Cyberpunk'", "10th floor - 'Restaurant'", "11th floor - 'Bar and Casino'", "12th floor - 'Amusement Park'", "13th floor - 'Amusement Arcade'", "14th floor - 'Swimming Park'", "'15th floor - Shopping Mall'", "16th floor - 'Garden'"]
+while True:
+    floor_unit = input("Enter the floor number: ")
+    if floor_unit == "4":
+        print ("\nGreat choice! Welcome to Modern Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+        break
+    elif floor_unit == "5":
+         print ("\nGreat choice! Welcome to Contemporary Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+         break
+    elif floor_unit == "6":
+         print ("\nGreat choice! Welcome to Neo-classical Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+         break
+    elif floor_unit == "7":
+         print ("\nGreat choice! Welcome to Bohemian Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+         break
+    elif floor_unit == "8":
+         print ("\nGreat choice! Welcome to Industrial Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+         break
+    elif floor_unit == "9":
+        print ("\nGreat choice! Welcome to Cyberpunk Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
+        break
+
+# MORNING -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+key = input("*press enter to continue \n")
+
+# restaurant function definition
+def restaurant():
+    print("Welcome to the restaurant")
+    print("What would you like to eat for breakfast?\n")
+    while True:
+        print("Choose")
+        resto = input("a. Italian Style   b. Filipino Style   c. American Style \n")
+        if (resto == "a"):
+            Italian_style()
+            break
+        elif (resto == "b"):
+            Filipino_style()
+            break
+        elif (resto == "c"):
+            American_style()
+            break
+            
+# Italian_style function definition
+def Italian_style():
+    while True:
+        print ("\nThis is the menu")
+        print ("Choose")
+        Itl = input ("a. Lobster Rissotto,   b. Frittata,   c. Ricotta Pancakes \n")
+        if Itl == "a":
+            print ("\nYou are now enjoying the famous Lobster Rissotto for breakfast made by the excellent Gordon Ramsay! \n")
+            break
+        elif Itl == "b":
+            print ("\nYou are now enjoying the famous Frittata for breakfast made by the excellent Gordon Ramsay! \n")
+            break
+        elif Itl == "c":
+            print ("\nYou are now enjoying the famous Ricotta Pancakes for breakfast made by the excellent Gordon Ramsay! \n")
+            break
+        else:
+            print("\nThere are no other items in the menu")
+
+# Filipino_Style function definition
+def Filipino_style():
+    while True:
+        print ("\nThis is the menu")
+        print ("Choose")
+        Flp = input ("a. Bacon Fried Rice with Taho,   b. Filipino Scrambled eggs with Taho,   c. Ginisang Corned Beef with Taho \n")
+        if Flp == "a":
+            print ("\nYou are now enjoying the famous Bacon Fried Rice with Taho for breakfast made by the excellent Chef Boy Logro! \n")
+            break
+        elif Flp == "b":
+            print ("\nYou are now enjoying the famous Filipino Scrambled eggs with Taho for breakfast made by the excellent Chef Boy Logro! \n")
+            break
+        elif Flp == "c":
+            print ("\nYou are now enjoying the famous Ginisang Corned Beef with Taho for breakfast made by the excellent Chef Boy Logro! \n")
+            break
+        else:
+            print("\nThere are no other items in the menu")
+
+# American_style function definition
+def American_style():
+    while True:
+        print ("\nThis is the menu")
+        print ("Choose")
+        Ame = input ("a. Eggs Benedict,   b. Belgian Waffles,   c. Bacon and Eggs \n")
+        if Ame == "a":
+            print ("\nYou are now enjoying the famous Eggs Benedict for breakfast made by the excellent Claudio Aprile! \n")
+            break
+        elif Ame == "b":
+            print ("\nYou are now enjoying the famous Belgian Waffles for breakfast made by the excellent Claudio Aprile! \n")
+            break
+        elif Ame == "c":
+            print ("\nYou are now enjoying the famous Bacon and Eggs for breakfast made by the excellent Claudio Aprile! \n")
+            break
+        else:
+            print("\nThere are no other items in the menu")
+            
+#end of restaurant function
+
+# Garden function definition
+def garden():
+    print("Is there anything you wanna do in the garden?")
+    while True:
+        print("Choose")
+        ab = input("a. Water the plants in the garden,   b. Stay in your seat and enjoy the cool breeze \n")
+        if ab == "a":
+            print("You are now watering the sunflowers, marigold, peashooter, and every plants you see \n")
+            break
+        elif ab == "b":
+            print("You stayed in the garden for 2 hours")
+            break
+# end of garden function definition
+
+# gym function definition
+def gym():
+    print("What workout will you do first?")
+    while True:
+        print("Choose")
+        ab = input("a. Cardiovascular Endurance workout,   b. Muscular Endurance workout \n")
+        if ab == "a":
+            print("You decided to have a Cardiovascular Endurance workout before doing the Muscular Endurance workout. \n")
+            break
+        elif ab == "b":
+            print("You decided to have a Muscular Endurance workout before doing the Cardiovascular Endurance workout. \n")
+            break
+# end of gym function definition
+
+print ("──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
+print ("Good morning", user, "! It's now 7:00 A.M Which among these floors do you want to spend your morning in? \n")
+print (" 10. Restaurant \n 16. Garden \n 3. GYM \n")
+while True:
+    print ("Enter the floor number")
+    floors1 = input ()
+    if floors1 == "10":
+        print ("\nWelcome to the 10th floor!")
+        print ("You enter the restuarant")
+        print ("The restaurant style suits your liking, it has a suitable colour scheme with a piece of beautiful jazz music and good quality service! \n")
+        restaurant()
+        print ("After breakfast, choose among these floors you also want to spend your morning \n")
+        print (" 16. Garden \n 3. GYM \n")
+        break
+    elif floors1 == "16":
+        print ("\nWelcome to the 16th floor!")
+        print ("You are now in a garden enjoying the beautiful view from the outside with your coffee \nand the fresh air flowing makes you calm and at peace.\n")
+        garden()
+        print ("After spending some time in the garden, choose among these floors you also want to spend your morning\n")
+        print (" 10. Restuarant \n 3. GYM \n")
+        break
+    elif floors1 == "3":
+        print ("\nWelcome to the 3rd floor!")
+        print ("Welcome to the GYM")
+        gym()
+        print ("After spending some time in the garden, choose among these floors you also want to spend your morning\n")
+        print (" 10. Restuarant \n 16. Garden \n")
+        break
+    else:
+        print("You are in the wrong floor")
+
+while True:
+    print ("Enter the floor number")
+    floors2 = input ()
+    if floors2 == "10":
+        print ("\nWelcome to the 10th floor!")
+        print ("You enter the restuarant")
+        print ("The restaurant style suits your liking, it has a suitable colour scheme with a piece of beautiful jazz music and good quality service! \n")
+        restaurant()
+        print (" 16. Garden \n 3. GYM \n")
+        break
+    elif floors2 == "16":
+        print ("\nWelcome to the 16th floor!")
+        print ("You are now in a garden enjoying the beautiful view from the outside with your coffee \nand the fresh air flowing makes you calm and at peace. \n")
+        garden()
+        break
+    elif floors2 == "3":
+        print ("\nWelcome to the 3rd floor!")
+        print ("You are now inside the GYM. You decided to have a Cardio workout and muscular endurance for a healthy living \n")
+        gym()
+        break
+    else:
+        print("You are in the wrong floor \n")
+        
+print("*After doing your morning activities")
+print ("You decided to go back to your unit to put your feet up and freshen up. \n")
+
+key = input("*press enter to continue \n")
+
+# afternoon
+print ("──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
+print("*12:30 PM \n")
+print("It’s now lunchtime! You are hungry, so you walked inside the elevator and enter the floor number of the restaurant \n")
+
+while True: 
+    print ("\nEnter floor number:")
+    one = input ()
+    if one == "10":
+        print ("For lunchtime, you decided to have a 4-course meal of Filipino Cuisine. For appetizers, salad, main dish, dessert \n")
+        print ("\n Your are now deciding which floor you want to first spend your afternoon on ")
+        break
+    elif one != "10":
+        print ("Please choose again \n")
+
+
+while True: 
+    print ("\nEnter floor number:")
+    one = input ()
+    if one == "12":
+        print("The amusement park with numerous entertainment-related attractions, including rides games and other activities. A theme park is a particular kind of amusement park that centres its buildings and attractions on the main subject and frequently has many areas with various themes")
+        break
+    elif one != "12":
+        print ("Please choose again \n")
+
+print("\nYou are enjoying everything in the amusement park but you decided to take a break and spend some time on another floor.")
+while True:
+    print ("\nEnter floor number:")
+    one = input ()
+    if one == "13":
+        print ("An amusement arcade is a place where people play arcade games, such as coin-operated air hockey or billiard games, pinball machines, electro-mechanical games, redemption games, and arcade video games.")
+        break
+    elif one != "13":
+        print("choose again")
+
+print("\nYou are enjoying everything in the amusement arcade but you decided to take a break and spend some time on another floor")        
+while True:
+    print ("\nEnter floor number:")
+    one = input ()
+    if one == "14":
+        print ("A water park consists of swimming pools, water slides, splash pads, water playgrounds, and lazy rivers, as well as spaces for floating, bathing, swimming, and other barefoot surroundings.")
+        break
+    elif one != "14":
+        print("choose again")
+
+print("\nYou are enjoying everything in the water park  but you decided to take a break and spend some time on another floor")
+while True:
+    print ("\nEnter floor number:")
+    one = input ()
+    if one == "15":
+        print ("A shopping mall features different stores for clothes, smartphones, shoes, electronics, makeup, books, groceries etc")
+        break
+    elif one != "14":
+        print("choose again")
+
+
+
+
+
+
+
+
+
+#Evening -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+print ("7:30 P.M. It's now dinnertime! You are hungry, so you walked inside the elevator and enter the floor number of the restaurant")
+while True:
+    floor_unit = input ("Enter the floor number of the Restaurant \n")
+    if floor_unit == "10":
+        print ("For dinnertime, you decided to have a 4-course meal at Wolfgang steakhouse. For appetizers, salad, main dish, dessert")
+        break
+    else:
+        print ("Wrong floor")
+
+print ("After dinnertime, choose how you want to spend your evening.")
+
+
+
+
+
+
+
+
+
+
+
+
+
