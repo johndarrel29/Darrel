@@ -10,12 +10,12 @@ print ("Floors 4-9 are for the resident's floor")
 print ("Which among these floor units you want to stay? ")
 print (" 4. Modern \n 5. Contemporary \n 6. Neo-classical \n 7. Bohemian \n 8. Industrial \n 9. Cyberpunk")
 
-# 
+
 while True:
     floor_unit = input("Enter the floor number: ")
     if floor_unit == "4":
         print ("\nGreat choice! Welcome to Modern Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
-        break
+        
     elif floor_unit == "5":
          print ("\nGreat choice! Welcome to Contemporary Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
          break
@@ -27,7 +27,7 @@ while True:
          break
     elif floor_unit == "8":
          print ("\nGreat choice! Welcome to Industrial Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
-         break
+         
     elif floor_unit == "9":
         print ("\nGreat choice! Welcome to Cyberpunk Style floor", floor_unit, "\n" "Now, go to your unit, make yourself comfortable and have a good rest! \n")
         break
@@ -55,7 +55,7 @@ while Story == "y":
                 break
             elif (resto == "c"):
                 American_style()
-                break
+                
                 
     # Morning Italian_style function definition
     def Italian_style():
@@ -68,7 +68,7 @@ while Story == "y":
                 break
             elif Itl == "b":
                 print ("\nYou are now enjoying the famous Frittata for breakfast made by the excellent Gordon Ramsay! \n")
-                break
+                
             elif Itl == "c":
                 print ("\nYou are now enjoying the famous Ricotta Pancakes for breakfast made by the excellent Gordon Ramsay! \n")
                 break
@@ -114,7 +114,7 @@ while Story == "y":
     #end of Morning restaurant function
 
     # Morning Garden function definition
-    def garden():
+    def garden:
         print("Is there anything you wanna do in the garden?")
         while True:
             print("Choose")
@@ -220,7 +220,7 @@ while Story == "y":
                 French_style2()
                 break
             elif (resto == "b"):
-                Indian_style2()
+                Indian_style2
                 break
             elif (resto == "c"):
                 Japanese_style2()
@@ -255,7 +255,7 @@ while Story == "y":
                 break
             elif Ind2 == "b":
                 print ("\nYou are now enjoying the famous Kalan Milagu Varuval (Mushroom pepper Fry). The heat from the pepper and the texture of mushrooms makes this dish very hearty! \n")
-                break
+                
             elif Ind2 == "c":
                 print ("\nYou are now enjoying the famous Gujarati Kadhi. It is a very popular Gujarati dish made from buttermilk or dahi and gram flour. ! \n")
                 break
@@ -270,7 +270,7 @@ while Story == "y":
             Jpn2 = input ("a. Gyukatsu (Beef cutlet),   b. Katsudon,   c. Traditional Sushi \n")
             if Jpn2 == "a":
                 print ("\nYou are now enjoying Gyukatsu for lunch! A dish of deep-fried breaded beef, usually served with cabbage, barley rice, miso soup, and potato salad, and pickles. \n")
-                break
+                
             elif Jpn2 == "b":
                 print ("\nYou are now enjoying Katsudon for lunch! A pork chop breaded with panko and fried over rice with onion and egg.  \n")
                 break
@@ -317,7 +317,7 @@ while Story == "y":
     while True: 
         floors3 = input ("Enter floor number: ")
         if floors3 == "10":
-            restaurant2()
+            restaurant2
             print ("You are now deciding which floor you want to first spend your afternoon on after eating your lunch ")
             print ("Choose")
             print (" 12. Amusement Park \n 13. Amusement Arcade \n 14. Swimming Park \n 15. Shopping Mall" )
@@ -472,7 +472,7 @@ while Story == "y":
     key = input("*press enter to continue \n")
 
     for i in range(5, 7):
-        for j in range(1, 60):
+        for j in range(1, 60:
             for k in range(1, 60):
                 print(i, ":", j, ":", k)
         
@@ -506,7 +506,7 @@ while Story == "y":
             break
         elif floor7 == "7":
             print ("\nYou decided to just chill and do a marathon movie on a cozy bed with your favourite snacks.\n")
-            break
+            
         elif floor7 == "8":
             print ("\nYou decided to just chill and do a marathon movie on a cozy bed with your favourite snacks.\n")
             break
