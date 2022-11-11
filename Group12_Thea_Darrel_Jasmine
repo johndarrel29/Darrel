@@ -9,7 +9,8 @@ print ("*10:45 PM \n")
 print ("Floors 4-9 are for the resident's floor") 
 print ("Which among these floor units you want to stay? ")
 print (" 4. Modern \n 5. Contemporary \n 6. Neo-classical \n 7. Bohemian \n 8. Industrial \n 9. Cyberpunk")
-# floors = ["1st floor - 'lobby'", "2nd floor - 'reception'", "3rd floor - 'Gym'", "4th floor - 'Modern style'", "5th floor - 'Contemporary'", "6th floor - 'Neo-classical'", "7th floor - 'Bohemian'", "8th floor - 'Industrial'", "9th floor - 'Cyberpunk'", "10th floor - 'Restaurant'", "11th floor - 'Bar and Casino'", "12th floor - 'Amusement Park'", "13th floor - 'Amusement Arcade'", "14th floor - 'Swimming Park'", "'15th floor - Shopping Mall'", "16th floor - 'Garden'"]
+
+# 
 while True:
     floor_unit = input("Enter the floor number: ")
     if floor_unit == "4":
@@ -156,7 +157,7 @@ while Story == "y":
         floors1 = input ("Enter the floor number: ")
         if floors1 == "10":
             print ("\nWelcome to the 10th floor!")
-            print ("You enter the restuarant")
+            print ("You enter the restaurant")
             print ("The restaurant style suits your liking, it has a suitable colour scheme with a piece of beautiful jazz music and good quality service! \n")
             restaurant()
             print ("After breakfast, choose among these floors you also want to spend your morning \n")
@@ -167,14 +168,14 @@ while Story == "y":
             print ("You are now in a garden enjoying the beautiful view from the outside with your coffee \nand the fresh air flowing makes you calm and at peace.\n")
             garden()
             print ("After spending some time in the garden, you want to have your breakfast now\n")
-            print (" 10. Restuarant \n")
+            print (" 10. Restaurant \n")
             break
         elif floors1 == "3":
             print ("\nWelcome to the 3rd floor!")
             print ("Welcome to the GYM\n")
             gym()
             print ("After spending some time in the gym, you wanted to have your breakfast\n")
-            print (" 10. Restuarant \n")
+            print (" 10. Restaurant \n")
             break
         else:
             print("You are in the wrong floor")
@@ -183,7 +184,7 @@ while Story == "y":
         floors2 = input ("Enter the floor number: ")
         if floors2 == "10":
             print ("\nWelcome to the 10th floor!")
-            print ("You enter the restuarant")
+            print ("You enter the restaurant")
             print ("The restaurant style suits your liking, it has a suitable colour scheme with a piece of beautiful jazz music and good quality service! \n")
             restaurant()
             break
@@ -311,6 +312,7 @@ while Story == "y":
     print("*12:00 PM \n")
     print("It's now lunchtime! You are hungry, the restaurant is on the 10th floor")
     print("You walked inside the elevator and enter the floor number of the restaurant \n")
+    print(" 10. Restaurant \n")
 
     while True: 
         floors3 = input ("Enter floor number: ")
@@ -400,7 +402,7 @@ while Story == "y":
         print("What would you like to eat for your dinner?\n")
         while True:
             print("Choose")
-            resto = input("a. Korean Style   b. Turkish Style   c. Mexico Style \n")
+            resto = input("a. Korean Style   b. Turkish Style   c. Mexican Style \n")
             if (resto == "a"):
                 Korean_style3()
                 break
@@ -476,6 +478,7 @@ while Story == "y":
         
     print ("──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")      
     print ("7:00 P.M. It's now dinnertime! You are hungry, so you walked inside the elevator and enter the 10th floor number of the restaurant")
+    print (" 10. Restaurant \n")
     while True:
         floor6 = input ("Enter the floor number of the Restaurant: ")
         if floor6 == "10":
