@@ -5,7 +5,8 @@ public class problem1
     static Scanner scan = new Scanner(System.in);
     
     public static void main(String[] args) {
-    
+        
+        System.out.println("Name that Triangle");
         System.out.println("Input 3 sides of triangle");
         
         System.out.print("Enter side: ");
